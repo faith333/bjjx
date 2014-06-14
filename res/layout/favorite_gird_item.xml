@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/favorite_cover_width"
+    android:layout_height="@dimen/favorite_cover_height"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@+id/favorite_book_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/cover" />
+
+    <View
+        android:id="@+id/favorite_book_check_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fg_grid_selector"
+        android:visibility="invisible" />
+
+    <CheckBox
+        android:id="@+id/favorite_book_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="7dp"
+        android:button="@drawable/ic_checkbox_selector"
+        android:gravity="center"
+        android:padding="0dp"
+        android:visibility="invisible" />
+
+</FrameLayout>
