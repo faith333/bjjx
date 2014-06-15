@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/main_tab_height"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tab_selector"
+    android:paddingTop="7dp"
+    android:drawablePadding="-3dp"
+    android:gravity="center"
+    android:textSize="@dimen/global_func_btn_tx_size"
+    android:textColor="@android:color/white"
+    />

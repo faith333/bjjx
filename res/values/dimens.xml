@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- global -->
+    <dimen name="global_func_btn_tx_size">11sp</dimen>
+
+    <!-- shared title -->
+    <dimen name="shared_title_size">18sp</dimen>
+    <dimen name="shared_title_height">47dp</dimen>
+    
+    <!-- login activity -->
+    <dimen name="login_panel_width">284dp</dimen>
+    <dimen name="login_panel_height">302dp</dimen>
+    <dimen name="login_edit_height">41dp</dimen>
+    <dimen name="login_bottom_height">76dp</dimen>
+    <dimen name="login_top_height">7dp</dimen>
+    <dimen name="login_center_padding">16dp</dimen>
+    <dimen name="login_edit_spacing">15dp</dimen>
+    <dimen name="login_btn_width">110dp</dimen>
+    <dimen name="login_btn_height">35dp</dimen>
+    
+
+    <!-- main -->
+    <dimen name="main_tab_height">45dp</dimen>
+    <dimen name="main_advertise_height">63dp</dimen>
+
+    <!-- album -->
+    <dimen name="album_book_width">70dp</dimen>
+    <dimen name="album_book_height">97dp</dimen>
+    <dimen name="main_grid_cover_spacing">8dp</dimen>
+    <dimen name="album_category_name_size">14sp</dimen>
+
+    <!-- book fragment -->
+    <dimen name="book_name_margin_left">15dp</dimen>
+    <dimen name="book_name_size">18sp</dimen>
+    <dimen name="book_cover_width">58dp</dimen>
+    <dimen name="book_cover_height">83dp</dimen>
+    <dimen name="book_list_item_height">92dp</dimen>
+    <dimen name="book_list_item_padding">8dp</dimen>
+    <dimen name="book_list_item_horizontal_spacing">6dp</dimen>
+
+    <!-- favorite fragment -->
+    <dimen name="favorite_cover_width">90dp</dimen>
+    <dimen name="favorite_cover_height">125dp</dimen>
+    <dimen name="favorite_grid_cover_spacing">12dp</dimen>
+    <dimen name="favorite_tip_height">21dp</dimen>
+
+    <!-- search fragment -->
+    <dimen name="search_edit_pandding">10dp</dimen>
+
+    <!-- download fragment -->
+    <dimen name="download_progress_height">4.6dp</dimen>
+    <dimen name="download_progress_tx_margin_right">6dp</dimen>
+    <dimen name="download_progress_margin_right">10dp</dimen>
+    <dimen name="download_progress_margin_top">7dp</dimen>
+
+</resources>

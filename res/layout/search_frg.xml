@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/shared_title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/search_edit_pandding" >
+
+        <EditText
+            android:id="@+id/search_edit"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:background="@color/bg_blue_level1"
+            android:hint="@string/search_hint"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/search_submit"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/bg_blue_level1"
+            android:gravity="center"
+            android:text="@string/search"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/search_grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/favorite_grid_cover_spacing"
+        android:drawSelectorOnTop="true"
+        android:listSelector="@drawable/bg_grid_item_selector"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:padding="@dimen/favorite_grid_cover_spacing"
+        android:verticalSpacing="@dimen/favorite_grid_cover_spacing" >
+    </GridView>
+    
+    <include layout="@layout/shared_loading" />
+
+</LinearLayout>
